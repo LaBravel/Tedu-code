@@ -1,0 +1,6 @@
+a = input('输入一个整数')
+b = input('输入另一个整数')
+x = int(a)
+y = int(b)
+print("两数之和是：",x + y,end = '\n')
+print("两数之积是：",x * y,end = '\n')

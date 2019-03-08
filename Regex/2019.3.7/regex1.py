@@ -1,0 +1,20 @@
+import re
+
+pattern = '(ab)cd(?P<pig>e)f'
+regex = re.compile(pattern)
+obj = regex.search('abcdefg')
+print(obj)
+print(obj.pos)
+print(obj.endpos)
+print(obj.re)
+print(obj.string)
+print(obj.lastgroup)
+print(obj.lastindex)
+print(obj.span())
+print(obj.start())
+print(obj.end())
+print(obj.groupdict())
+print(obj.groups())
+print(obj.group())
+print(obj.group(1))
+print(obj.group('pig'))
